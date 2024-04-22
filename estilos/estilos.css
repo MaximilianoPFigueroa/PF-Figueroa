@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    background-color: rgba(0, 255, 255, 0.719);
+}
+header{
+    background-color: coral;
+    padding: 20px;
+    
+}
+h1{
+    color: black;
+    background-color:brown;
+    font-family: "Tauri", sans-serif;
+    text-decoration: underline;
+    padding: 15px;
+    
+}
+h2{
+    padding: 25px;
+}
+h3{
+    display: inline;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+h4{
+    text-align: left;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+nav{
+    
+    display: inline-block;
+    
+    
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    
+    border-radius: 15%;
+    background-color: darkgoldenrod;
+    color: white;
+}
+li{
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.pie{
+    display: inline;
+}
+img{
+    border-radius: 20%;
+}
+.achicar{
+    width: 450px;
+    height: 450px;
+    margin: 15px;
+}
+.centrado{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 25px;
+}
+p{
+    font-size: 20px;
+}
+footer{
+    background-color: blueviolet;
+}
+
+
