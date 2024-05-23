@@ -1,0 +1,120 @@
+@media screen and (max-width:768px){
+    .contenedor{
+        width: $todo;
+        height: $todo;
+        display: block;
+    }
+    header{
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .header__titulo{
+        padding-left:0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        /*h1{
+            padding-left: 200px;
+            width: $todo;
+            color: black;
+            font-size: 3rem;
+            font-family:$letraSuperior;
+            text-decoration: underline;
+        }
+        .iconos{
+                width: 50px;
+                height: 50px;
+            } */
+    }
+    h1{
+        padding-left: 10px;
+        width: 70%;
+        color: black;
+        font-size: 3rem;
+        font-family:$letraSuperior;
+        text-decoration: underline;
+    }
+    img{
+        width: 50%;
+        height: 50%;
+        margin: 15px;
+    }
+    .centrado{
+        flex-direction: column;
+        margin: $nada;
+    }
+    iframe{
+        width: $todo;
+    }
+    li{
+        display: block;
+        text-align: left;
+        padding: $nada;
+    }
+    .sihover{
+        border-radius: $nada;
+        
+    }
+    .body__section{
+        flex-direction: column;
+
+    }
+    .carousel{
+        width: 70%;
+    }
+}
+@media screen and (max-width:480px){
+    .contenedor{
+        background-color: black;
+        color: white;
+        width: $todo;
+        height: $todo;
+        display: block;
+    }
+    header{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+        padding: 0px;
+    }
+    .header__titulo{
+        padding:0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    h1{
+        text-align: left;
+        padding: 0px;
+    }
+    .body__section{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .header__titulo{
+        width: $todo;
+    }
+    img{
+        width: auto;
+    }
+    .centrado{
+        flex-direction: column;
+        margin: $nada;
+    }
+    iframe{
+        width: $todo;
+    }
+    li{
+        display: block;
+        text-align: left;
+        padding: $nada;
+    }
+    .carousel{
+        width: auto;
+    }
+}

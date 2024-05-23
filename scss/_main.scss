@@ -1,0 +1,70 @@
+main{
+    padding: 10px;
+    p{
+        font-size: 20px;
+        margin: 10px;
+    }
+    img{
+        width: 400px;
+        height: 400px;
+        margin: 15px;
+        }
+    .body__section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        padding: 25px;
+        p{
+            font-size: 20px;
+            margin: 10px;
+            .nopadding{
+                text-decoration: none;
+                padding: 10px;
+                font-size: 1.5rem;
+                animation-duration: 3s;
+                animation-name: aparece;
+                animation-iteration-count: infinite;
+                @keyframes aparece {
+                    0%{
+                        opacity: $nada;
+                    }
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: $nada;
+                    }
+                }
+            }
+        }
+    }
+    img{
+        width:$cuatrocientos;
+        height:$cuatrocientos;
+        margin: 15px;
+        }
+    h2 subrayado{
+            text-decoration: underline; 
+    }
+    h3{
+        padding: 20px;
+        text-align: left;
+        font-size: 2.3rem;
+    }
+    iframe{
+        padding: 10px;
+    }
+    .carousel{
+        width:$cuatrocientos;
+        img{
+            width:$cuatrocientos;
+            height:$cuatrocientos;
+            margin: 15px;
+        }
+    }
+}
+.encima:hover{
+    border-radius: $todo/10;
+    transform:scale(1.09);
+}

@@ -1,0 +1,30 @@
+.contenedor{
+    background-color: rgba(235, 196, 118, 0.719);
+    margin: auto;
+    width:$todo;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    header{
+        width: $todo;
+        background-color:$headerColor;
+        display: flex;
+        align-items: center;
+        nav{
+            a{
+                text-decoration: none;
+                padding: 10px;
+                text-align: center;
+                font-family:$letraSuperior;
+                .iconos{
+                    width: 50px;
+                    height: 50px;
+                    }
+                }            
+            }  
+        }
+    }

@@ -1,0 +1,19 @@
+.header__titulo{
+    background-color:$headerColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    h1{
+        padding-left: 100px;
+        width: $todo;
+        color: black;
+        font-size: 3rem;
+        font-family:$letraSuperior;
+        text-decoration: underline;
+    }
+    .iconos{
+            width: 50px;
+            height: 50px;
+        } 
+}
